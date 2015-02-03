@@ -39,3 +39,6 @@ where stats.statsid = application.statsid
 and application.applicationid = datasource.applicationid
 and stats.machinename = 'sjcapp64'
 order by decode(datasource.name,'PROD-Docstore-Config',1,'PROD-Docstore-10G',2,'PROD-Docstore-11G',3,'PROD-NSP-Config',4,'PROD-NSP-Hub',5,'PROD-NSP-Services',6,'PROD-NSP-int1-1',7,'PROD-NSP-int1-2',8,'PROD-NSP-int2-1',9,'PROD-NSP-int2-2',10,'PROD-NSP-int3-1',11,'PROD-NSP-int3-2',12,'PROD-NSP-int4-1',13,'PROD-NSP-int4-2',14,'PROD-NSP-int5-1',15,'PROD-NSP-int5-2',16, 'TM1', 17, 'TM2', 18);
+
+
+###########
